@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bot's response 
   // edits how  the headers and body of response will look
-  const response = await fetch('http://localhost:5000',{
+  const response = await fetch('https://code-logic.onrender.com/',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
